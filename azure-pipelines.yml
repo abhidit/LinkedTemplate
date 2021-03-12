@@ -7,10 +7,11 @@
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'NetworkWatcherRG'
     location: 'Australia Central 2'
-    templateLocation: 'Linked artifact'
-    csmFile: 'main.json'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/abhidit/LinkedTemplate/main/main.json'
     deploymentMode: 'Incremental'
     deploymentName: 'firstdeployment'
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
